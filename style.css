@@ -1,0 +1,165 @@
+h1{
+	 padding: 3% 20% 3% 0;
+}
+h2{
+	padding: 3% 5% 3% 0;
+}
+
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding: 25px;
+
+}
+
+.parallax {
+    min-height: 400px;
+		/* max-width: none; */
+
+    background: transparent;
+}
+/* parallax-text */
+.parallax-text{
+	text-align: center;
+  color: #fff;
+}
+
+/* title section */
+
+#title .container-fluid{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+
+
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+/* navbar-brand */
+.navbar-brand{
+  font-family:  "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+
+
+}
+
+/* navitem spacing */
+.nav-item{
+  padding: 0 18px;
+}
+
+/* navbarlink
+ */
+ .nav-link{
+   font-family:  "Montserrat-light";
+   font-size: 1.2rem;
+ }
+
+/* title-image */
+ .title-image{
+   /* transform: rotate(30deg) ; */
+   /* width: 60%; */
+   /* position: absolute; */
+   left: 60%;
+	 width:400px;
+	 height: 650px;
+	 margin-left: 55%;
+
+
+ }
+
+ /* Skills */
+ #skills{
+
+	 /* padding: 3% 2%; */
+	 background-color: #ef8172;
+
+
+ }
+
+/* carousel buttons for white background */
+ .carousel-control-prev-icon-1,
+ .carousel-control-next-icon-1 {
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   /* border-radius: 50%; */
+   /* border: 1px solid black; */
+   background-image: none;
+ }
+ .carousel-control-next-icon-1:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+.carousel-control-prev-icon-1:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+
+
+
+.language1{
+height: 200px;
+display: inline-block;
+}
+
+
+/* card deck image */
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.skill-column{
+	margin-top: 5%;
+
+}
+
+
+
+/* parallax text footer */
+.parallax-text-footer{
+	color: #000;
+	text-align: center;
+}
+
+
+
+
+/* footer */
+#footer{
+padding: 5% 15% 5%;
+text-align: center;
+color: #fff;
+background-color: #000;
+line-height: 2.5rem;
+
+}
+
+.branding{
+	margin-top: 7%;
+}
+
+.footer-icon{
+/* color: #000; */
+  width: 5%;
+}
